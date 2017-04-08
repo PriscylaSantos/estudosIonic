@@ -21,7 +21,18 @@ Gerar paǵinas automaticamente
 
     $ ionic g page nomePagina
 
-### Tutoriais
+ **Observação** : toda pagina criada deve ser importada em 
+
+    src/
+        app/
+            app.module.ts  
+
+Criando Providers
+
+    $ ionic g provider nomeProvider
+
+### Tutoriais 
 
 - App helloWorld : [10 Minutes with Ionic 2: Hello World](http://blog.ionic.io/10-minutes-with-ionic-2-hello-world/)
 - App navigationApp : [10 Minutes with Ionic 2: Adding Pages and Navigation](http://blog.ionic.io/10-minutes-with-ionic-2-adding-pages-and-navigation/)
+- App apiApp : [10 Minutes with Ionic 2: Calling an API](http://blog.ionic.io/10-minutes-with-ionic-2-calling-an-api/) e [An In-Depth Explanation of Providers in Ionic 2](https://www.joshmorony.com/an-in-depth-explanation-of-providers-in-ionic-2/)
