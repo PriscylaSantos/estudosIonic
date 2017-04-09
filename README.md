@@ -29,7 +29,18 @@ Gerar paǵinas automaticamente
 
 Criando Providers
 
-    $ ionic g provider nomeProvider
+    $ ionic g provider nomeProvider  
+
+adicionar em  src/app/app.module.ts
+
+    import { HttpModule } from '@angular/http';
+    ...
+    imports: [
+        ....,
+        HttpModule
+    ]
+
+
 
 ### Tutoriais 
 

@@ -14,8 +14,8 @@ export class HomePage {
   }
   loadPeople(){
       this.peopleService.load()
-      .then(data =>{
-          this.people = data;
+      .then(datas =>{
+          this.people = datas;
       });
     }
   }

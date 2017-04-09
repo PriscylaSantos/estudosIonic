@@ -10,16 +10,16 @@ import 'rxjs/add/operator/map';
 */
 @Injectable()
 export class PeopleService {
-  data: any;
+  datas: any;
   constructor(public http: Http) {
     //console.log('Hello PeopleService Provider');
-    this.data = null;
+    //  this.data = null;
   }
 
   load() {
-  if (this.data) {
+    if (this.datas) {
     // already loaded data
-    return Promise.resolve(this.data);
+      return Promise.resolve(this.datas);
   }
 
   // don't have the data yet
@@ -32,8 +32,8 @@ export class PeopleService {
       .subscribe(data => {
         // we've got back the raw data, now generate the core schedule data
         // and save the data for later reference
-        this.data = data.results;
-        resolve(this.data);
+        this.datas = data.results;
+        resolve(this.datas);
       });
   });
 }
