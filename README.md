@@ -12,6 +12,8 @@
 
 - App ionic2-delete : [Ionic 2: How to Create a Sliding Delete Button for Lists](https://www.joshmorony.com/ionic-2-how-to-create-a-sliding-delete-button-for-lists/)
 
+- App photoapp2 : [Lab 1: Your first Cross Platform Mobile Application on Ionic 2](https://www.learnionic.org/autumn16/2016/11/08/lab-1-your-first-cross-platform-mobile-application/#get-the-full-source-code-for-the-lab)
+
 ### Comandos
 
 Iniciando um app Ionic2 
