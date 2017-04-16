@@ -1,0 +1,83 @@
+{
+    "results": [{
+            "gender": "female",
+            "name": {
+                "title": "ms",
+                "first": "enola",
+                "last": "marchand"
+            },
+            "location": {
+                "street": "9264 avenue du château",
+                "city": "bordeaux",
+                "state": "deux-sèvres",
+                "postcode": 11238
+            },
+            "email": "enola.marchand@example.com",
+            "login": {
+                "username": "greenmouse189",
+                "password": "meathead",
+                "salt": "w3K2T3zz",
+                "md5": "c08142113f77cda9cda339371bc608af",
+                "sha1": "1d525c2d1cfd2f7f67013106f48909d0a258a290",
+                "sha256": "97102d90d709e15ad650d9fec466ee3eb685d443aafc1ee6a59b1d67c9f6aefa"
+            },
+            "dob": "1949-07-26 01:27:04",
+            "registered": "2006-08-31 21:52:43",
+            "phone": "04-02-48-78-15",
+            "cell": "06-25-82-63-33",
+            "id": {
+                "name": "INSEE",
+                "value": "249647448575 65"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/86.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/86.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/86.jpg"
+            },
+            "nat": "FR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "miss",
+                "first": "mae",
+                "last": "mills"
+            },
+            "location": {
+                "street": "2490 central st",
+                "city": "irving",
+                "state": "georgia",
+                "postcode": 11780
+            },
+            "email": "mae.mills@example.com",
+            "login": {
+                "username": "whitebird506",
+                "password": "dottie",
+                "salt": "YodbpxXH",
+                "md5": "217afda77542adee646c0e87755a0c5c",
+                "sha1": "f262ef9e88fd7c11cd469ab90a4a1721e31a64a8",
+                "sha256": "fd652b5b515796c434c9797276d29f433495dbaf3014bf534ae0a89130353bdc"
+            },
+            "dob": "1967-12-16 20:47:00",
+            "registered": "2007-01-28 22:52:25",
+            "phone": "(772)-326-2487",
+            "cell": "(345)-558-3989",
+            "id": {
+                "name": "SSN",
+                "value": "031-19-9708"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/74.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/74.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/74.jpg"
+            },
+            "nat": "US"
+        }
+    ],
+    "info": {
+        "seed": "0034f888f08f9cd2",
+        "results": 2,
+        "page": 1,
+        "version": "1.1"
+    }
+}
