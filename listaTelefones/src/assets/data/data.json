@@ -1,0 +1,121 @@
+[{
+    "name": "Prefeitura de Pedro Leopoldo",
+    "description": "",
+    "verified": true,
+    "isSponsor": false,
+    "photo": {
+        "thumbnail": "http://placehold.it/100",
+        "logo": "http://placehold.it/592x396"
+    },
+    "url": "http:twitter.com/rithie7",
+    "views": 301,
+    "delivery": {},
+    "payment_type": {},
+    "rating": 5,
+    "location": [{
+            "place": "Atendimento Geral",
+            "address": "Av João Teodoro da Silva, 1, loja B",
+            "neighborhood": "São José",
+            "city": "Pedro Leopoldo",
+            "CEP": "33600000",
+            "googlePoint": "-20,465280,-54,609815",
+            "mainLocation": true,
+            "openingHours": {
+                "sun": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "mon": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "tue": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "wed": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "thu": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "fri": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "sat": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }]
+            },
+            "phones": [{
+                    "number": "(31) 3665-3111",
+                    "type": "land"
+                },
+                {
+                    "number": "(31) 99221-1607",
+                    "type": "mobile"
+                }
+            ]
+        },
+        {
+            "place": "Secretaria de Transito",
+            "address": "Av João Teodoro da Silva, 1, loja B",
+            "neighborhood": "São José",
+            "city": "Pedro Leopoldo",
+            "CEP": "33600000",
+            "googlePoint": "-20,465280,-54,609815",
+            "mainLocation": false,
+            "openingHours": {
+                "sun": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "mon": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "tue": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "wed": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "thu": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "fri": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }],
+                "sat": [{
+                    "start": "09:00",
+                    "end": "18:00"
+                }]
+            },
+            "phones": [{
+                    "number": "(31) 3665-4444",
+                    "type": "land"
+                },
+                {
+                    "number": "(31) 99221-4637",
+                    "type": "mobile"
+                }
+            ]
+        }
+    ],
+    "group": [
+        "util"
+    ],
+    "services": [{
+        "name": "",
+        "descricao": "",
+        "price": "",
+        "type": ""
+    }]
+}]
