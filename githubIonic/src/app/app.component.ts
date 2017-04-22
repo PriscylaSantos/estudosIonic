@@ -8,25 +8,26 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 */
 import { UsersPage } from '../pages/users/users';
-import { ReposPage } from '../pages/repos/repos ';
+import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
-  rootPage: any = HomePage;
-
+  rootPage: any = UsersPage;
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
-    // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+     /* { title: 'Home', component: HomePage },
+      { title: 'List', component: ListPage }*/
+      { title: 'Usuários', component: UsersPage },
+      { title: 'Repositorios', component: ReposPage },
+      { title: 'Organizações', component: OrganisationsPage }
+
     ];
 
   }
@@ -36,11 +37,12 @@ export class MyApp {
       // Okay, so the platform is ready and our plugins are available.
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      //this.splashScreen.hide();
     });
   }
 
   openPage(page) {
+   // this.menu.close(); //new
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
