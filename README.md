@@ -14,6 +14,7 @@
 
 - App photoapp2 : [Lab 1: Your first Cross Platform Mobile Application on Ionic 2](https://www.learnionic.org/autumn16/2016/11/08/lab-1-your-first-cross-platform-mobile-application/#get-the-full-source-code-for-the-lab)
 
+- App gitHubIonic: [Build a Mobile App with Angular 2 and Ionic 2](https://scotch.io/tutorials/build-a-mobile-app-with-angular-2-and-ionic-2)
 ### Comandos
 
 Iniciando um app Ionic2 
